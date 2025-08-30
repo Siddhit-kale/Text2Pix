@@ -41,16 +41,7 @@ const Footer = () => {
                                     Home
                                 </Link>
                             </li>
-                            <li>
-                                <Link to="/gallery" className="text-sm text-gray-600 hover:text-gray-900">
-                                    Gallery
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/features" className="text-sm text-gray-600 hover:text-gray-900">
-                                    Features
-                                </Link>
-                            </li>
+                           
                             <li>
                                 <Link to="/buy" className="text-sm text-gray-600 hover:text-gray-900">
                                     Pricing
