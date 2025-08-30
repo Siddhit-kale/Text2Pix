@@ -34,8 +34,6 @@ const App = () => {
         <Route path='/result' element={<Result />} />
         <Route path='/result/:id' element={isAuthenticated ? <GenerationResult /> : <Navigate to="/" replace />} />
         <Route path='/buy' element={<BuyCredit />} />
-        <Route path='/gallery' element={<Gallery />} />
-        <Route path='/features' element={<Features />} />
       </Routes>
       <Footer />
     </div>

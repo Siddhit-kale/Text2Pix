@@ -236,14 +236,7 @@ const Dashboard = () => {
             <h3 className="font-semibold">New Creation</h3>
             <p className="text-sm opacity-90 mt-1">Start generating</p>
           </button>
-          <Link 
-            to="/gallery" 
-            className="bg-orange-500 text-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all hover:scale-105"
-          >
-            <div className="text-2xl mb-2">🖼️</div>
-            <h3 className="font-semibold">Gallery</h3>
-            <p className="text-sm opacity-90 mt-1">View your work</p>
-          </Link>
+          
           <Link 
             to="/buy" 
             className="bg-purple-500 text-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all hover:scale-105"
@@ -252,14 +245,7 @@ const Dashboard = () => {
             <h3 className="font-semibold">Get Credits</h3>
             <p className="text-sm opacity-90 mt-1">Power up</p>
           </Link>
-          <Link 
-            to="/features" 
-            className="bg-blue-500 text-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all hover:scale-105"
-          >
-            <div className="text-2xl mb-2">✨</div>
-            <h3 className="font-semibold">Features</h3>
-            <p className="text-sm opacity-90 mt-1">Learn more</p>
-          </Link>
+         
         </div>
 
         <div className="bg-gradient-to-br from-white to-teal-50 rounded-xl shadow-sm p-6 border border-gray-100 mb-8">

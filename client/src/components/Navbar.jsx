@@ -16,9 +16,7 @@ const Navbar = () => {
     const mobileMenuRef = useRef(null);
 
     const navItems = [
-        { name: 'Home', path: '/' },
-        { name: 'Gallery', path: '/gallery' },
-        { name: 'Features', path: '/features' },   
+        { name: 'Home', path: '/' },  
         { name: 'Pricing', path: '/buy' },
     ];
 
